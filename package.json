@@ -1,6 +1,6 @@
 {
   "name": "onbyz",
-  "homepage":"http://siddiqkaithodu.github.io/onbyztest"
+  "homepage":"http://siddiqkaithodu.github.io/onbyztest",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
