@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/onbyztest/static/css/main.08ed7c70.css",
+    "main.js": "/onbyztest/static/js/main.5b63707e.js",
+    "static/media/coworkers.jpg": "/onbyztest/static/media/coworkers.88cf0e254435bd1fe9c8.jpg",
+    "static/media/img 13.jpg": "/onbyztest/static/media/img 13.083995d253602a3312b3.jpg",
+    "static/media/phone banner 1.jpg": "/onbyztest/static/media/phone banner 1.5023ad7982ad50b24aa8.jpg",
+    "static/media/img 10.jpg": "/onbyztest/static/media/img 10.a413cb4486b2f72ddd96.jpg",
+    "static/media/img 15.jpg": "/onbyztest/static/media/img 15.96727033b674e8b6a389.jpg",
+    "static/media/img 11.jpg": "/onbyztest/static/media/img 11.3ae918906c1d34634bc6.jpg",
+    "static/media/img 5.jpg": "/onbyztest/static/media/img 5.53416167984ba37742ae.jpg",
+    "static/media/img 7.jpg": "/onbyztest/static/media/img 7.77b3d8c9896e007f5046.jpg",
+    "static/media/img 1.jpg": "/onbyztest/static/media/img 1.7f049b0560485fb9e834.jpg",
+    "static/media/img 3.jpg": "/onbyztest/static/media/img 3.26e972aa7c07e812d87e.jpg",
+    "static/media/img 2.jpg": "/onbyztest/static/media/img 2.c7613748473a2a8f6b8b.jpg",
+    "static/media/img 12.jpg": "/onbyztest/static/media/img 12.bb379ff3fd573a136329.jpg",
+    "static/media/img 4.jpg": "/onbyztest/static/media/img 4.82e6be9f9ab46e1bbead.jpg",
+    "static/media/img 8.jpg": "/onbyztest/static/media/img 8.82e6be9f9ab46e1bbead.jpg",
+    "static/media/img 9.jpg": "/onbyztest/static/media/img 9.82e6be9f9ab46e1bbead.jpg",
+    "static/media/img 6.jpg": "/onbyztest/static/media/img 6.56ab294d3a57d9d24651.jpg",
+    "static/media/on logo.png": "/onbyztest/static/media/on logo.a76a28622d7a417a3c38.png",
+    "static/media/logos 6.jpg": "/onbyztest/static/media/logos 6.600cc4553840b6442121.jpg",
+    "static/media/logos 8.jpg": "/onbyztest/static/media/logos 8.a69a3bba2a441489c32d.jpg",
+    "static/media/3.jpg": "/onbyztest/static/media/3.66f33748f3f78631682a.jpg",
+    "static/media/1.jpg": "/onbyztest/static/media/1.1e86cc37952f658b804c.jpg",
+    "static/media/4.jpg": "/onbyztest/static/media/4.b36191513663fc98471e.jpg",
+    "static/media/2.jpg": "/onbyztest/static/media/2.77358c4e150de8c9ebfe.jpg",
+    "index.html": "/onbyztest/index.html",
+    "main.08ed7c70.css.map": "/onbyztest/static/css/main.08ed7c70.css.map",
+    "main.5b63707e.js.map": "/onbyztest/static/js/main.5b63707e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08ed7c70.css",
+    "static/js/main.5b63707e.js"
+  ]
+}
