@@ -1,0 +1,421 @@
+
+.App {
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 3em !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 1em;
+  color: rgba(240, 236, 231, 0.849);
+  transform: scale(0.6);
+  /* Adjust the scaling as needed */
+}
+
+.logo-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: scale(0.6);
+  /* Adjust the scaling as needed */
+}
+
+.about {
+  background-color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 6em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+h5 {
+  font-size: 3em;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+.footer {
+
+  background-color: #262437;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+  position: relative;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1em;
+  margin-left: 1em;
+  padding-bottom: 1em;
+  padding-left: 4em;
+  margin-right: 1em;
+  border-radius: 20px;
+  padding-bottom: 1em;
+}
+
+.footer h1 {
+  font-size: 3em;
+  padding: 0;
+  width: 15%;
+  align-items: left;
+  gap: 0;
+  font-weight: bolder;
+  align-self: left;
+}
+
+.footer p {
+  font-size: 1.5em;
+  width: 50%;
+  margin-top: 2em;
+  position: relative;
+  /* Add relative positioning to the p element */
+  z-index: 1;
+  /* Adjust the z-index to ensure text is on top */
+  color: aliceblue;
+  text-align: left;
+  /* Add this property to align the text to the left */
+}
+
+/* a form with a input and checkbox and button */
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  flex-grow: 0;
+  gap: 2em;
+  /* Add vertical spacing between flex child elements */
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  border-radius: 1em;
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin: 1em;
+  padding: 1em;
+  text-align: left;
+}
+
+.form input {
+  width: 100%;
+  height: 2em;
+  padding: 0em;
+  text-align: left;
+  margin: 1em 0;
+  border: none;
+  border-radius: 0.5em;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.form input[type=checkbox] {
+  width: auto;
+  /* height: 2em; */
+  padding: 0em;
+  text-align: left;
+  margin-right: 0.5em;
+  border: none;
+  border-radius: 0.5em;
+  transition: all 0.3s ease-in-out;
+  text-align: left;
+}
+
+.form input:focus {
+  outline: none;
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.15), 0 0 0 0.2em #2575fc;
+}
+
+.header {
+  background-image: url('../src/images/coworkers.jpg');
+  background-color: linear-gradient(to right, #6b10cb, #2575fc);
+  background-repeat: no-repeat;
+  background-position: right;
+  opacity: 0.9;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  padding: 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.side-img {
+  margin-left: auto;
+  padding: 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.image-wall {
+  background-color: #fcf0ec;
+  background-image: url('../src/images/phone banner 1.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 3em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.horizontal {
+  flex-direction: column;
+  background-image: none;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 100px;
+  /* Adjust the gap value for spacing between images */
+}
+
+.image-item {
+  width: 100%;
+  padding-bottom: 1em;
+  /* 4:3 aspect ratio */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Define different sizes for individual images */
+.image-large {
+  padding-bottom: 5%;
+  /* 2:1 aspect ratio */
+}
+
+.image-medium {
+  padding-bottom: 2%;
+  /* 1:1 aspect ratio */
+}
+
+.image-small {
+  padding-bottom: 3%;
+  /* 3:4 aspect ratio */
+}
+
+.side {
+  flex-basis: 40%;
+}
+
+.side h1 {
+  font-size: 2.5em;
+  padding: 0;
+  align-items: center;
+  gap: 0;
+  font-weight: bolder;
+  align-self: center;
+}
+
+.para {
+  font-size: 1.3em;
+  width: 50%;
+  margin-top: 3em;
+  position: relative;
+  /* Add relative positioning to the p element */
+  z-index: 1;
+  /* Adjust the z-index to ensure text is on top */
+  color: rgb(30, 33, 36);
+  text-align: left;
+  /* Add this property to align the text to the left */
+}
+
+.image-wall::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(59, 41, 224, 0.5), rgba(38, 5, 226, 0.5));
+  z-index: -1;
+}
+
+.image-wall::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(223, 7, 133, 0.5), rgba(14, 162, 207, 0.822));
+  z-index: -1;
+}
+
+.image {
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  padding: 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header.flex-inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main.flex-inline-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  flex-grow: 0;
+  gap: 2em;
+  /* Add vertical spacing between flex child elements */
+}
+
+.main.flex-inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  flex-grow: 0;
+  gap: 2em;
+  /* Add vertical spacing between flex child elements */
+}
+
+.flex-inline-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* align contents to center and make the spaces between them even */
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  flex-grow: 0;
+  gap: 25em;
+  /* Add horizontal spacing between flex child elements */
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  flex-grow: 0;
+  gap: 2em;
+  /* Add vertical spacing between flex child elements */
+}
+
+.card {
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  flex-grow: 0;
+  gap: 2em;
+  /* Add vertical spacing between flex child elements */
+  width: 20em;
+  height: 20em;
+  background-color: #fff;
+  border-radius: 1em;
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin: 1em;
+  padding: 1em;
+}
+
+/* Add space for the logo to avoid overlapping with the text */
+header p {
+  font-size: 4em;
+  width: 50%;
+  margin-top: 3em;
+  position: relative;
+  /* Add relative positioning to the p element */
+  z-index: 1;
+  /* Adjust the z-index to ensure text is on top */
+  color: aliceblue;
+  text-align: left;
+  /* Add this property to align the text to the left */
+
+}
+
+header span {
+  font-size: 1.3em;
+  position: relative;
+  z-index: 2;
+  line-height: 1vh;
+  color: rgba(240, 248, 255);
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(59, 41, 224, 0.5), rgba(38, 5, 226, 0.5));
+  z-index: -1;
+}
+
+.rounded_button {
+  border-radius: 50px;
+  background-color: #2575fc;
+  padding: 1em 2em;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1.2em;
+  margin-top: 1em;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-right: 5em;
+}
+
+.main {
+  background-color: #f0f0f0;
+  position: relative;
+  padding: 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h1.main.flex-inline {
+  font-size: 2.5em;
+  padding: 0;
+  align-items: center;
+  gap: 0;
+  align-self: center;
+}
+
+h4.main.flex-inline {
+  font-size: 1.5em;
+  width: fit-content;
+  padding: 0;
+  font-weight: normal;
+  align-items: center;
+  gap: 0;
+  align-self: center;
+}
